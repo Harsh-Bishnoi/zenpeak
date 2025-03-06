@@ -139,7 +139,6 @@
 }
 
 /***** slider *****/
-
 .pt-64 {
     padding-top: 64px;
 }
@@ -153,8 +152,9 @@
     gap: 56px !important;
 }
 
-/***** footer *****/
+/***** Let’s together *****/
 
+/***** footer *****/
 .bg-img-2 {
     background-image: url(../images/png/footer-bg-img.png);
     background-repeat: no-repeat;
