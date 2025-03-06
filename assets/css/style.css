@@ -138,6 +138,8 @@
     padding-bottom: 62px;
 }
 
+/***** slider *****/
+
 @media (max-width:575.98px) {
     .max-w-594 {
         max-width: 335px;
