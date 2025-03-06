@@ -7,7 +7,9 @@
     /* colors */
     --color-white: white;
     --color-black: black;
-    --color-brown:#7D655B;
+    --color-brown: #7D655B;
+    --bg-roebuck: #A68272;
+    --color-tiny-calf: #DFBCA6;
 }
 
 /* font family */
@@ -38,8 +40,19 @@
     color: var(--color-black);
 }
 
+.bg-roebuck {
+    background-color: var(--bg-roebuck);
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-lg: 60px;
+    }
+}
+
 @media (max-width:575.98px) {
     :root {
         --fs-lg: 43px;
+        --fs-md: 36px;
     }
 }

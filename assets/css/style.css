@@ -5,6 +5,10 @@
     max-width: 1056px !important;
 }
 
+.max-w-1164 {
+    max-width: 1164px !important;
+}
+
 /* line height */
 /* .lh-18 {
     line-height: 18.38px;
@@ -41,6 +45,15 @@
     line-height: 120%;
 }
 
+.lh-150 {
+    line-height: 150%;
+}
+
+/* opacity */
+.opacity-70 {
+    opacity: 70%;
+}
+
 /* header */
 .bg-img {
     background-image: url(../images/png/header-img.png);
@@ -72,9 +85,65 @@
     padding: 25px 50px;
     border-radius: 127px;
     border: 1px solid var(--color-white);
+    transition: all 200ms linear;
 }
 
 .contact-btn:hover {
     background-color: var(--color-white) !important;
     color: var(--color-brown) !important;
+}
+
+/***** Pioneering *****/
+.about-btn {
+    padding: 5px 20px;
+    border-radius: 31px;
+    border: 1px solid var(--color-white);
+    transition: all 200ms linear;
+}
+
+.about-btn:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-brown) !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.max-w-577 {
+    max-width: 577px;
+}
+
+.max-w-594 {
+    max-width: 594px;
+}
+
+.max-w-471 {
+    max-width: 471px;
+}
+
+.pt-85 {
+    padding-top: 85px;
+}
+
+.pb-62 {
+    padding-bottom: 62px;
+}
+
+@media (max-width:575.98px) {
+    .max-w-594 {
+        max-width: 335px;
+    }
+
+    .max-w-577 {
+        max-width: 333px;
+    }
 }
