@@ -10,6 +10,11 @@
     --color-brown: #7D655B;
     --bg-roebuck: #A68272;
     --color-tiny-calf: #DFBCA6;
+    --color-dark-brown: #5A5656;
+    --color-light-black: #333333;
+    --bg-bright: #F7F3F0;
+    --corbeau-black: #0C0F26;
+    --carbon-color: #333333;
 }
 
 /* font family */
@@ -42,6 +47,26 @@
 
 .bg-roebuck {
     background-color: var(--bg-roebuck);
+}
+
+.bg-bright {
+    background-color: var(--bg-bright);
+}
+
+.color-dark-brown {
+    color: var(--color-dark-brown);
+}
+
+.color-light-black {
+    color: var(--color-light-black);
+}
+
+.corbeau-black {
+    color: var(--corbeau-black);
+}
+
+.carbon-color {
+    color: var(--carbon-color);
 }
 
 @media (max-width:767.98px) {
