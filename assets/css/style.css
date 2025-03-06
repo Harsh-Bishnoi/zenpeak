@@ -140,6 +140,19 @@
 
 /***** slider *****/
 
+.pt-64 {
+    padding-top: 64px;
+}
+
+.pb-162 {
+    padding-bottom: 162px;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 56px !important;
+}
+
 @media (max-width:575.98px) {
     .max-w-594 {
         max-width: 335px;

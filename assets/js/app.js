@@ -1,27 +1,39 @@
 $('.autoplay').slick({
-    // autoplay: true,
-    autoplaySpeed: 900,
-    slidesToShow: 3,
-    arrows: false,
     dots: false,
-    pauseOnMouseEnter: true,
+    infinite: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1024,
             settings: {
-                arrows: false,
+                slidesToShow: 5,
+                slidesToScroll: 5,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 5
+                focusOnSelect: true
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                centerMode: true,
+                focusOnSelect: true,
+                dots: false,
+
             }
         },
         {
             breakpoint: 480,
             settings: {
-                arrows: false,
+                slidesToShow: 1.2,
+                slidesToScroll: 1.2,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                focusOnSelect: true
             }
         }
     ]
