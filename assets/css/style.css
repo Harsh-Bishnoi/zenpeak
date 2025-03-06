@@ -153,8 +153,61 @@
     gap: 56px !important;
 }
 
-/*  */
+/***** footer *****/
 
+.bg-img-2 {
+    background-image: url(../images/png/footer-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.max-w-401 {
+    max-width: 401px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.footer-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 102px;
+    background: linear-gradient(0deg, #A68272, #A68272);
+    ;
+    backdrop-filter: blur(60.29999923706055px)
+}
+
+.gap-11 {
+    gap: 11px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.py-18 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.bottom-circle {
+    bottom: 0;
+    left: 0;
+}
+
+.top-circle {
+    top: 0;
+    right: 0;
+}
+
+.line {
+    border-top: 1px solid #FFFFFF1A;
+}
 
 @media (max-width:575.98px) {
     .max-w-594 {
