@@ -7,6 +7,7 @@
     /* colors */
     --color-white: white;
     --color-black: black;
+    --color-brown:#7D655B;
 }
 
 /* font family */
@@ -35,4 +36,10 @@
 
 .color-black {
     color: var(--color-black);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 43px;
+    }
 }

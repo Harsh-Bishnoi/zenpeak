@@ -1,30 +1,80 @@
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.lh-18 {
+.max-w-1032 {
+    max-width: 1056px !important;
+}
+
+/* line height */
+/* .lh-18 {
     line-height: 18.38px;
-}
+} */
 
-.lh-20 {
+/* .lh-20 {
     line-height: 20.68px;
-}
+} */
 
-.lh-22 {
+/* .lh-22 {
     line-height: 22.98px;
-}
+} */
 
-.lh-24 {
+/* .lh-24 {
     line-height: 24px;
-}
+} */
 
-.lh-27 {
+/* .lh-27 {
     line-height: 27.58px;
-}
+} */
 
-.lh-83 {
+/* .lh-83 {
     line-height: 83.2px;
+} */
+
+/* .lh-97 {
+    line-height: 97.5px;
+} */
+.lh-100 {
+    line-height: 100%;
 }
 
-.lh-97 {
-    line-height: 97.5px;
+.lh-120 {
+    line-height: 120%;
+}
+
+/* header */
+.bg-img {
+    background-image: url(../images/png/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-w-480 {
+    max-width: 480px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-37 {
+    margin-bottom: 37px;
+}
+
+.contact-btn {
+    padding: 25px 50px;
+    border-radius: 127px;
+    border: 1px solid var(--color-white);
+}
+
+.contact-btn:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-brown) !important;
 }
