@@ -401,7 +401,12 @@
     height: 40px;
     border-radius: 102px;
     background: linear-gradient(0deg, #A68272, #A68272);
-    backdrop-filter: blur(60.29999923706055px)
+    backdrop-filter: blur(60.29999923706055px);
+    transition: all 200ms linear;
+}
+
+.footer-circle:hover{
+    transform: scale(1.1);
 }
 
 .gap-11 {
@@ -429,6 +434,14 @@
 
 .line {
     border-top: 1px solid #FFFFFF1A;
+}
+
+.footer-link {
+    transition: all 200ms linear;
+}
+
+.footer-link:hover {
+    color: var(--color-tiny-calf) !important;
 }
 
 @media (max-width:991.98px) {
