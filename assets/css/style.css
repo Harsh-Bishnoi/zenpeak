@@ -74,6 +74,10 @@
     transition: all 200ms linear;
 }
 
+.mtn-2 {
+    margin-top: -2px;
+}
+
 .about-btn:hover {
     background-color: var(--color-white) !important;
     color: var(--color-brown) !important;
@@ -206,6 +210,14 @@
     padding: 45px 5px 45px 28px;
 }
 
+.left-33 {
+    left: -33%;
+}
+
+.right-33 {
+    right: -33%;
+}
+
 .max-w-512 {
     max-width: 512px;
 }
@@ -218,15 +230,15 @@
     max-width: 486px;
 }
 
-.max-w-540{
+.max-w-540 {
     max-width: 540px;
 }
 
-.mb-60{
+.mb-60 {
     margin-bottom: 60px;
 }
 
-.pb-139{
+.pb-139 {
     padding-bottom: 139px;
 }
 
@@ -381,6 +393,14 @@
     .container-xl,
     .container-xxl {
         --bs-gutter-x: 0 !important;
+    }
+
+    .max-w-480 {
+        max-width: 240px;
+    }
+
+    .contact-btn {
+        width: 100%;
     }
 }
 
