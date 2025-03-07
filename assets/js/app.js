@@ -45,26 +45,14 @@ function myFunction() {
     document.getElementById("bio-card").style.display = "block";
 }
 
-function myFunction4() {
-    document.getElementById("bio-card").style.display = "none";
-}
-
 document.getElementById("bio-card-2").style.display = "none";
 function myFunction2() {
     document.getElementById("bio-card-2").style.display = "block";
 }
 
-function myFunction5() {
-    document.getElementById("bio-card-2").style.display = "none";
-}
-
 document.getElementById("bio-card-3").style.display = "none";
 function myFunction3() {
     document.getElementById("bio-card-3").style.display = "block";
-}
-
-function myFunction6() {
-    document.getElementById("bio-card-3").style.display = "none";
 }
 
 
