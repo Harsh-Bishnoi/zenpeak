@@ -199,8 +199,36 @@
 }
 
 /* Institutional Asset */
+.section-6-box {
+    max-width: 1144px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, #A68272, #A68272);
+    padding: 45px 5px 45px 28px;
+}
 
+.max-w-512 {
+    max-width: 512px;
+}
 
+.max-w-491 {
+    max-width: 491px;
+}
+
+.max-w-486 {
+    max-width: 486px;
+}
+
+.max-w-540{
+    max-width: 540px;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+.pb-139{
+    padding-bottom: 139px;
+}
 
 /***** Let’s together *****/
 .max-w-735 {
@@ -339,6 +367,20 @@
     .child-box {
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    .section-6-box {
+        padding: 39px 20px;
+    }
+
+    .section-6 .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        --bs-gutter-x: 0 !important;
     }
 }
 
