@@ -120,12 +120,76 @@
     padding-bottom: 162px;
 }
 
-.slick-track {
+.slider-1 .slick-track {
     display: flex !important;
     gap: 56px !important;
 }
 
 /***** meet with our team *****/
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pt-108 {
+    padding-top: 108px;
+}
+
+.pt-44 {
+    padding-top: 44px;
+}
+
+.max-w-361 {
+    max-width: 361px;
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.img-box {
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(0deg, #A68272, #A68272);
+    border-radius: 1.66px;
+}
+
+.left-13 {
+    left: 13px;
+}
+
+.top-13 {
+    top: 13px;
+}
+
+.gap-13 {
+    gap: 13px;
+}
+
+.pb-185 {
+    padding-bottom: 185px;
+}
+
+.bio-card {
+    background-color: var(--bg-roebuck);
+    padding: 0 35px;
+    border-radius: 4px;
+    max-width: 361px;
+    width: 100%;
+    height: 100%;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.slider-2 .slick-track {
+    display: flex !important;
+    gap: 28px;
+}
 
 /***** Let’s together *****/
 .max-w-735 {
@@ -242,6 +306,12 @@
     border-top: 1px solid #FFFFFF1A;
 }
 
+@media (max-width:991.98px) {
+    .pt-108 {
+        padding-top: 44px;
+    }
+}
+
 @media (max-width:575.98px) {
     .max-w-594 {
         max-width: 335px;
@@ -270,5 +340,9 @@
 
     .bg-img-3 {
         background-size: cover;
+    }
+
+    .bio-card {
+        padding: 0px;
     }
 }

@@ -38,3 +38,54 @@ $('.autoplay').slick({
         }
     ]
 });
+
+
+document.getElementById("bio-card").style.display = "none";
+function myFunction() {
+    document.getElementById("bio-card").style.display = "block";
+}
+
+document.getElementById("bio-card-2").style.display = "none";
+function myFunction2() {
+    document.getElementById("bio-card-2").style.display = "block";
+}
+
+document.getElementById("bio-card-3").style.display = "none";
+function myFunction3() {
+    document.getElementById("bio-card-3").style.display = "block";
+}
+
+
+$('.sec-4-slider').slick({
+    dots: false,
+    infinite: true,
+    prevArrow: ".leftArrow",
+    nextArrow: ".rightArrow",
+    autoplay: true,
+    autoplaySpeed: 800,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+    ]
+});
