@@ -191,6 +191,13 @@
     gap: 28px;
 }
 
+.bg-img-4 {
+    background-image: url(../images/png/let-together-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
 /***** Let’s together *****/
 .max-w-735 {
     max-width: 735px;
