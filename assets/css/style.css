@@ -10,33 +10,6 @@
 }
 
 /* line height */
-/* .lh-18 {
-    line-height: 18.38px;
-} */
-
-/* .lh-20 {
-    line-height: 20.68px;
-} */
-
-/* .lh-22 {
-    line-height: 22.98px;
-} */
-
-/* .lh-24 {
-    line-height: 24px;
-} */
-
-/* .lh-27 {
-    line-height: 27.58px;
-} */
-
-/* .lh-83 {
-    line-height: 83.2px;
-} */
-
-/* .lh-97 {
-    line-height: 97.5px;
-} */
 .lh-100 {
     line-height: 100%;
 }
@@ -200,8 +173,8 @@
 .bg-img-3 {
     background-image: url(../images/png/let-together-bg-img.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: right;
 }
 
 .small-box {
@@ -237,7 +210,6 @@
     height: 40px;
     border-radius: 102px;
     background: linear-gradient(0deg, #A68272, #A68272);
-    ;
     backdrop-filter: blur(60.29999923706055px)
 }
 
@@ -292,6 +264,9 @@
         background: transparent;
         border-color: transparent;
         padding: 0 12px;
+    }
 
+    .bg-img-3 {
+        background-size: cover;
     }
 }
