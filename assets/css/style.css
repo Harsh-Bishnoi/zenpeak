@@ -27,6 +27,10 @@
     opacity: 70%;
 }
 
+.opacity-80 {
+    opacity: 80%;
+}
+
 /* header */
 .bg-img {
     background-image: url(../images/png/header-img.png);
@@ -157,6 +161,16 @@
     border-radius: 1.66px;
 }
 
+.remove-box {
+    width: 68px;
+    height: 68px;
+    background: white;
+    border-radius: 1.66px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
 .left-13 {
     left: 13px;
 }
@@ -201,8 +215,66 @@
     background-size: contain;
     background-position: right;
 }
-/***** Invest cryptocurrency *****/
 
+/***** Invest cryptocurrency *****/
+.max-w-738 {
+    max-width: 738px;
+}
+
+.pb-218 {
+    padding-bottom: 218px;
+}
+
+.pb-44 {
+    padding-bottom: 44px;
+}
+
+.section-5-box {
+    max-width: 636px;
+    width: 100%;
+    background: #DFBCA6;
+    border: 3px solid #A68272;
+    border-radius: 17px;
+    border-width: 3px;
+    padding: 10px 13px;
+}
+
+.section-5-bg-img {
+    background-image: url(../images/png/section-5-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.accordion {
+    max-width: 586px;
+    width: 100%;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-btn-icon: none !important;
+    --bs-accordion-btn-active-icon: none !important;
+    --bs-accordion-border-width: none !important;
+}
+
+.accordion-body {
+    padding-bottom: 31px !important;
+    padding-top: 0 !important;
+    padding-right: 33px !important;
+}
+
+.accordion-item {
+    border-radius: 120px;
+}
+
+.max-w-419 {
+    max-width: 419px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
 
 /* Institutional Asset */
 .section-6-box {
