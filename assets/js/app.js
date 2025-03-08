@@ -90,17 +90,6 @@ $('.sec-4-slider').slick({
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // // // accordian code
 const accordionButtons = document.querySelectorAll('.accordion-button');
 accordionButtons.forEach(button => {
