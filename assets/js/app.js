@@ -61,8 +61,6 @@ $('.sec-4-slider').slick({
     infinite: true,
     prevArrow: ".leftArrow",
     nextArrow: ".rightArrow",
-    autoplay: true,
-    autoplaySpeed: 800,
     slidesToShow: 3,
     slidesToScroll: 3,
     responsive: [

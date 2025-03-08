@@ -124,6 +124,14 @@
     padding-bottom: 162px;
 }
 
+.slider-img {
+    filter: grayscale(100%);
+}
+
+.slider-img:hover {
+    filter: grayscale(0%);
+}
+
 .slider-1 .slick-track {
     display: flex !important;
     gap: 56px !important;
@@ -191,6 +199,17 @@
 .slider-2 .slick-track {
     display: flex !important;
     gap: 28px;
+}
+
+.leftArrow,
+.rightArrow {
+    opacity: 50% !important;
+    transition: all 200ms linear;
+}
+.leftArrow:hover,
+.rightArrow:hover {
+    opacity: 100% !important;
+   
 }
 
 .bg-img-4 {
