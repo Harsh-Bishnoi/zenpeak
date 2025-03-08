@@ -87,3 +87,26 @@ $('.sec-4-slider').slick({
         },
     ]
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // // accordian code
+const accordionButtons = document.querySelectorAll('.accordion-button');
+accordionButtons.forEach(button => {
+    button.addEventListener('click', function () {
+        const activeAccordionItem = document.querySelector('.accordion-item.active');
+        const accordionItem = this.closest('.accordion-item');
+        accordionItem.classList.toggle('active') && activeAccordionItem.classList.remove("active")
+    });
+});

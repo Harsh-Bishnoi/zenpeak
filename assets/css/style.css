@@ -66,9 +66,89 @@
 }
 
 .contact-btn:hover {
+    animation: glow 0.5s infinite alternate;
     background-color: var(--color-white) !important;
     color: var(--color-brown) !important;
 }
+
+.spin:hover {
+
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px var(--color-brown);
+    }
+
+    100% {
+        box-shadow: 0 0 20px var(--color-brown);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***** Pioneering *****/
 .about-btn {
@@ -125,6 +205,7 @@
 }
 
 .slider-img {
+    transition: all 200ms linear;
     filter: grayscale(100%);
 }
 
@@ -206,10 +287,11 @@
     opacity: 50% !important;
     transition: all 200ms linear;
 }
+
 .leftArrow:hover,
 .rightArrow:hover {
     opacity: 100% !important;
-   
+
 }
 
 .bg-img-4 {
@@ -238,7 +320,7 @@
     border: 3px solid var(--bg-roebuck);
     border-radius: 17px;
     border-width: 3px;
-    padding: 10px 13px;
+    padding: 21px 25px;
 }
 
 .section-5-bg-img {
@@ -250,6 +332,30 @@
     padding-right: 12px;
 }
 
+.accordion-item {
+    border-radius: 16px !important;
+}
+
+.accordion-item .collapsed {
+    border-radius: 120px !important;
+}
+
+.accordion-button:not(.collapsed) span {
+    opacity: 100% !important;
+}
+
+.accordion-body:not(.collapsed) {
+    padding-top: 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    padding-bottom: 0 !important;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
 .accordion {
     max-width: 586px;
     --bs-accordion-btn-focus-box-shadow: none !important;
@@ -259,10 +365,36 @@
     --bs-accordion-border-width: none !important;
 }
 
+.accordion-button {
+    padding-top: 21px !important;
+    padding-bottom: 22px !important;
+    padding-left: 30px !important;
+}
+
+.max-w-419 {
+    max-width: 419px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
 .accordion-body {
-    padding-bottom: 31px !important;
-    padding-top: 0 !important;
-    padding-right: 33px !important;
+    padding-top: 14px !important;
+    padding-left: 103px !important;
+    padding-right: 0px !important;
 }
 
 .mt-12 {
@@ -478,6 +610,10 @@
 
     .contact-btn {
         width: 100%;
+    }
+
+    .section-5-box {
+        padding: 10px 13px;
     }
 }
 
